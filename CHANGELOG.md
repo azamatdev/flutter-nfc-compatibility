@@ -1,4 +1,4 @@
 # Changelog
 
-## 0.2.0
-Improved android support
+## 0.0.1
+Added nfc compatibility support

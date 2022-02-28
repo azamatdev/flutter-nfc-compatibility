@@ -1,14 +1,5 @@
 # Flutter NFC Compatibility Check
 
-## Supported NFC Format
-
-| Platform | Supported NFC Tags               |
-| -------- | -------------------------------- |
-| Android  | **NDEF:**  A, B, F, V, BARCODE   |
-| iOS      | **NDEF:** NFC TYPE 1, 2, 3, 4, 5 |
-
-
-
 ## Installation
 
 Add to pubspec.yaml:
