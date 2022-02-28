@@ -1,6 +1,6 @@
 name: flutter_nfc_compatibility
 description: A nfc compatibility plugin for Android.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/azamatdev/flutter-nfc-compatibility
 
 environment:
@@ -15,7 +15,7 @@ flutter:
   plugin:
     platforms:
       android:
-        androidPackage: com.mymax.nfccompatibility
+        package: com.mymax.nfccompatibility
         pluginClass: FlutterNfcCompatibilityPlugin
 dev_dependencies: 
   test: ^1.19.3

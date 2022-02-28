@@ -11,3 +11,7 @@ pubspec.lock
 *.iml
 *.log
 flutter_export_environment.sh
+.dart_tool
+.dart_tool/package_config.json
+.dart_tool/package_config_subset
+.dart_tool/version
