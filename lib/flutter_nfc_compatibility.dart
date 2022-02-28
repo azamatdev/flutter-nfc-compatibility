@@ -8,7 +8,7 @@ class FlutterNfcCompatibility {
   static const MethodChannel _channel =
       const MethodChannel('flutter_nfc_compatibility');
   static const stream =
-      const EventChannel('com.midgemedical.nfccompatibility.flutter_nfc_compatibility');
+      const EventChannel('com.mymax.nfccompatibility.flutter_nfc_compatibility');
 
   static Future<NFCAvailability> checkNFCAvailability() async {
     var availability =

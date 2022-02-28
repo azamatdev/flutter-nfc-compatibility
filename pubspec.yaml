@@ -13,7 +13,7 @@ dependencies:
 
 flutter:
   plugin:
-    androidPackage: com.midgemedical.nfccompatibility
+    androidPackage: com.mymax.nfccompatibility
     pluginClass: FlutterNfcCompatibilityPlugin
 dev_dependencies: 
   test: ^1.19.3

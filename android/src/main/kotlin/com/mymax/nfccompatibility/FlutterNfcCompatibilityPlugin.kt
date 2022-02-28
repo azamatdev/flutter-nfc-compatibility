@@ -1,4 +1,4 @@
-package com.midgemedical.nfccompatibility
+package com.mymax.nfccompatibility
 
 import android.Manifest
 import android.app.Activity
@@ -67,7 +67,7 @@ class FlutterNfcCompatibilityPlugin : FlutterPlugin, ActivityAware, MethodCallHa
         val messenger = binding.binaryMessenger
         methodChannel = MethodChannel(messenger, "flutter_nfc_compatibility")
         methodChannel!!.setMethodCallHandler(this)
-        eventChannel = EventChannel(messenger, "com.midgemedical.nfccompatibility.flutter_nfc_compatibility")
+        eventChannel = EventChannel(messenger, "com.mymax.nfccompatibility.flutter_nfc_compatibility")
         eventChannel!!.setStreamHandler(this)
     }
 

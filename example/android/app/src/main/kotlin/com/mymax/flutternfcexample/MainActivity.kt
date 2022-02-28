@@ -1,4 +1,4 @@
-package it.matteocrippa.flutternfcreaderexample
+package com.mymax.flutternfcexample
 
 import io.flutter.embedding.android.FlutterActivity
 

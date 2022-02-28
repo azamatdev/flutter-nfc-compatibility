@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="it.matteocrippa.flutternfcreaderexample">
+  package="com.mymax.flutternfcexample">
 
   <!-- The INTERNET permission is required for development. Specifically,
        flutter needs com to communicate with the running application
