@@ -13,7 +13,9 @@ dependencies:
 
 flutter:
   plugin:
-    androidPackage: com.mymax.nfccompatibility
-    pluginClass: FlutterNfcCompatibilityPlugin
+    platforms:
+      android:
+        androidPackage: com.mymax.nfccompatibility
+        pluginClass: FlutterNfcCompatibilityPlugin
 dev_dependencies: 
   test: ^1.19.3
